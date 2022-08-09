@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type=text]:invalid {
+    border: red solid 1px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.container > label {
+   text-align: center;
+}
+#comment{
+  width:40%;
+  height:10px;
+  padding:2%;
+  font-size:1.2em;
+  border-bottom: 4px solid cornflowerblue;
+/*   background-color: cornflowerblue; */
+}
+#addComments {
+    width: 20%;
+    padding: 5px;
+    background-color: darkblue;
+    border-radius : 20px;
+    color: white;
+    align-self: center;
+}
+
+.wrapper > button {
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #6DB72C;
+    color: white;
+    border-radius : 30px;
+}
